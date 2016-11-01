@@ -1,0 +1,21 @@
+---
+<!-- layout: blogs
+title: "Blog"
+ -->description: ""
+header-img: ""
+---
+
+
+
+<div class="excerpt">
+    <hr>
+    <ul style="list-style-position: inside">
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ site.baseurl }}/{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                <h6>{{ post.date | date: "%d %B %Y" }}</h6>
+                {{ post.excerpt }}
+            </li>
+        {% endfor %}
+    </ul>
+</div>

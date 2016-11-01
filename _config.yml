@@ -1,0 +1,21 @@
+# Site settings
+title: make.br
+header-img: img/home-bg.jpg
+email: rhett@makebr.com
+copyright_name: Your/Project/Corporate Name
+description: "Baton Rouge, LA based makerspace with a passion for education, community and entrepreneurship."
+baseurl: "/makebr"
+twitter_username: makebatonrouge
+github_username:  make-br
+facebook_username:  makebatonrouge
+email_username:  rhett@makebr.com, lance@makebr.com
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 4
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

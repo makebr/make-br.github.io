@@ -1,0 +1,198 @@
+/*Custom CSS*/
+
+/***** General ****/
+
+p,
+button {
+	font-family: "Open Sans", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+hr.small {
+	max-width: 300px;
+	border-color: #404040;
+}
+
+a:hover,
+a:focus {
+	color: #EA5727;
+}
+
+
+/***** Navbar *****/
+
+.navbar-custom .nav li a {
+	color: #9393A0;
+	font-size: 16px;
+}
+
+.navbar-custom .navbar-brand {
+	color: #EA5727;
+}
+
+@media only screen and (min-width: 768px) {
+	.navbar-custom .navbar-brand:hover,
+	.navbar-custom .navbar-brand:focus,
+	.navbar-custom .nav li a:hover,
+  	.navbar-custom .nav li a:focus {
+	    color: #3A3A3C;
+	}
+}
+
+/***** Home Content Type *****/
+
+/*header*/
+.intro-header {
+	background: #fff;
+}
+
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 50px 0 50px;
+  color: #404040;
+}
+
+.intro-header .site-heading .subheading {
+	margin: 0;
+}
+
+.header-logo img {
+	padding: 175px 0 60px;
+}
+/*mission*/
+
+div.mission {
+	text-align: center;
+	background-color: #EA5727;
+	color: white;
+}
+
+.mission div {
+	padding: 50px 0;
+}
+
+@media only screen and (max-width: 768px) {
+	.mission div {
+		padding: inherit;
+	}
+	div.mission {
+		margin: 0;
+	}
+
+	.row {
+		margin: 0;
+	}
+}
+
+.mission h2 {
+	font-size: 42px;
+	margin-bottom: 50px;
+}
+
+.mission p {
+	font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+	.mission h2 {
+		font-size: 36px;
+		margin-bottom: inherit;
+	}
+
+	.mission p {
+		font-size: 20px;
+	}
+}
+
+/*community*/
+.community {
+	text-align: center;
+}
+
+.community div {
+	padding: 50px 100px;  
+}
+
+@media only screen and (max-width: 768px) {
+	.community div {
+		padding: 20px 20px;
+	}
+}
+
+.community h3 {
+	font-size: 32px;
+}
+
+.community button {
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background:#EA5727;
+  border: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.community button {
+		width: 70%;
+	}
+}
+
+
+.community button:hover, 
+.community button:focus {
+	background: #D0562F;
+}
+
+/*Spotlight*/
+
+h2.post-preview-header {
+	font-size: 45px;
+}
+
+.post-preview > a:hover,
+.post-preview > a:focus {
+  color: #EA5727;
+}
+
+
+/***** Post Content Type *****/
+
+header.header{
+	margin: 50px 0 0 0;
+}
+
+
+/***** Blogs Page *****/
+
+.excerpt li {
+	list-style: none;
+}
+.excerpt h3 {
+	font-size: 35px;
+}
+.excerpt img {
+	width: 50%;
+}
+
+.excerpt p {
+	font-size: 14px;
+	margin: 0;
+}
+
+.excerpt h6 {
+	font-size: 11px;
+}
+
+
+/***** Forms *****/
+
+@media (min-width: 500px) {
+	.floating-label-form-group input, 
+	.floating-label-form-group textarea {
+		width: 500px;
+	}
+}
+
